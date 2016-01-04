@@ -1,0 +1,8 @@
+1. How does tracking and adding changes make developers' lives easier? It gives a history of changes that can be reviewed if something goes wrong, and then lets you go back to before that change.
+2. What is a commit? It is one iteration or save of the project that can be reviewed before becoming part of the final product.
+3. What are the best practices for commit messages?  Start with a one sentence summary, then give a more detailed explanation below with a space inbetween.
+4. What does the HEAD^ argument mean? The current base branch. Usually the master.
+5. What are the 3 stages of a git change and how do you move a file from one stage to the other? There is the uncommited, ready to commit, and the committed state.  You use the git add command to add a file, then commit the branch when you are happy with what is ready to commit.
+6. Write a handy cheatsheet of the commands you need to commit your changes? git status = shows what is to be committed and not ready.  git add = adds a file to be committed  git commit -m "[Commit message]" commits the current changes with a message.   git reset HEAD [filename] takes a file off the "ready to commit" list
+7. What is a pull request and how do you create and merge one? A pull request is a request to merge a branch to the main branch. You must go the the branch you wish to merge and create a new pull request.  Then, whoever has admin control of the main branch can review the request and decide whether to accept.
+8. Why are pull requests preferred when working with teams?  It ensures a level of control before everyone in a group makes a final change. Some parts of a group may not know what others are doing exactly, and if code is added together without testing and reviewing first, it can lead to problems.
