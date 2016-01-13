@@ -1,4 +1,4 @@
-![sitemap](/imgs/Sitemap.png
+![sitemap](/imgs/Sitemap.png "Site-map")
 
 1. What are the 6 Phases of Web Design?
     #### One 
