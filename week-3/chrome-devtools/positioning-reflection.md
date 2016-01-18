@@ -1,10 +1,10 @@
-![1-2](/imgs/1-2.png "1")
-![3](/imgs/3.png "1")
-![4](/imgs/4.png "1")
-![5](/imgs/5.png "1")
-![6](/imgs/6.png "1")
-![7](/imgs/7.png "1")
-![8](/imgs/8.png "1")
+![1-2](imgs/1-2.png "1")
+![3](imgs/3.png "1")
+![4](imgs/4.png "1")
+![5](imgs/5.png "1")
+![6](imgs/6.png "1")
+![7](imgs/7.png "1")
+![8](imgs/8.png "1")
 
 1. How can you use Chrome's DevTools inspector to help you format or position elements?
 
