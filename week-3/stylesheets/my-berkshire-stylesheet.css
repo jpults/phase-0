@@ -1,0 +1,116 @@
+/*
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+You must know the path to your stylesheet, the syntax (<link rel="stylesheet" type="text/css" href="theme.css">), and if you are linking multiple stylesheets, know what will be overridden if you do.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+We mostly modified the margins to push the text to where we wanted it.  We had to change our columns to display in inline blocks. It was a little difficult, because it would often just be a tiny bit off, and some other tag needed to be changed.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+We used the size, font-weight, and color properties.
+
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+We used Id's in sections where we only had one thing we wanted to be that way. This is because Id's are supposed to be single use.  We used classes if we had multiple types of tags we wanted to add the styling to.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+My partner and I both thought that our code was much cleaner and easier to read. It seems to me almost like a computer generated their code, so perhaps a web-design program was used to help make it. They simply used very few symantic tags and sort of had too many unncessesary lines that could have been combined.
+
+*/
+
+
+html {
+  background-color: #ffffff;
+  
+}
+
+body {
+  color: #000080;
+}
+
+h1 {
+  text-transform:capitalize;
+  font-variant:small-caps;     
+  font-weight:bold; 
+  font-size: 30px;
+  margin-bottom: 0px;
+}
+
+h2 {
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.line-divider{
+  height: 1px;
+  border-bottom: 1px solid #313030;
+}
+
+a {
+  color# 800080;
+  font-size: 15px;
+}
+
+a:visited {
+  color: #ff0000;
+}
+
+main {
+  max-width: 80%;
+  margin: 0px auto;
+}
+
+main ul li {
+  margin-bottom: 20px;
+}
+
+.note {
+  font-size: 10px;
+}
+
+.column {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+header {
+  font-weight: bold;
+  font-size: 10px;
+  text-align: center;
+}
+
+span {
+  display: block;
+}
+
+aside {
+  text-align: center;
+  font-size: 10px;
+}
+
+aside a {
+  font-size: 10px;
+}
+
+footer {
+  font-size: 10px;
+}
+
+footer a {
+  font-size: 16px;
+}
+
+footer p a {
+  font-size: 10px;
+}
+
+#warren {
+  max-width:100px;
+  position:fixed;
+  top:0px;
+  right:0px;
+}
