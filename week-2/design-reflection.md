@@ -1,4 +1,4 @@
-![sitemap](/imgs/Sitemap.png
+![sitemap](/week-2/imgs/Sitemap.png "Site-map")
 
 1. What are the 6 Phases of Web Design?
     #### One 
@@ -29,3 +29,5 @@ They should understand the way that humans in general tend to process informatio
 
 It is designing by primarily focusing on the ease of use and accessibility for the user.  The more comfortable and pleasant your design is, the more likely it will be used again. It will stand out among other, harder to use sites. 
 7. Which parts of the challenge did you find tedious?
+
+The listing of the phases. 
