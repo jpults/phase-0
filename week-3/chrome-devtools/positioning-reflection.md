@@ -1,10 +1,10 @@
-![1-2](https://github.com/jpults/phase-0/week-3/chrome-devtools/imgs/1-2.png "1")
-![3](https://github.com/jpults/phase-0/week-3/chrome-devtools/imgs/3.png "1")
-![4](https://github.com/jpults/phase-0/week-3/chrome-devtools/imgs/4.png "1")
-![5](https://github.com/jpults/phase-0/week-3/chrome-devtools/imgs/5.png "1")
-![6](https://github.com/jpults/phase-0/week-3/chrome-devtools/imgs/6.png "1")
-![7](https://github.com/jpults/phase-0/week-3/chrome-devtools/imgs/7.png "1")
-![8](https://github.com/jpults/phase-0/week-3/chrome-devtools/imgs/8.png "1")
+![1-2](/chrome-devtools/imgs/1-2.png "1")
+![3](/chrome-devtools/imgs/3.png "1")
+![4](/chrome-devtools/imgs/4.png "1")
+![5](/chrome-devtools/imgs/5.png "1")
+![6](/chrome-devtools/imgs/6.png "1")
+![7](/chrome-devtools/imgs/7.png "1")
+![8](/chrome-devtools/imgs/8.png "1")
 
 1. How can you use Chrome's DevTools inspector to help you format or position elements?
 
