@@ -59,8 +59,8 @@ end
 
 # 3. Reflection
 
-# What was your process for breaking the problem down? What different approaches did you consider? I was very 
-# Was your pseudocode effective in helping you build a successful initial solution?
-# What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how?
-# How did you initially iterate through the data structure?
-# Do you feel your refactored solution is more readable than your initial solution? Why?
+# What was your process for breaking the problem down? What different approaches did you consider? I considered dividing the number out and making seperate strings, but then I realized you could probably insert commas at specific points.
+# Was your pseudocode effective in helping you build a successful initial solution? For the most part.
+# What new Ruby method(s) did you use when refactoring your solution? Describe your experience of using the Ruby documentation to implement it/them (any difficulties, etc.). Did it/they significantly change the way your code works? If so, how? I used the .insert method to put the comma's in at a specific place. The doc was a little confusing but after experimenting I figured it out.
+# How did you initially iterate through the data structure? I only was dividing the number by 1000. 
+# Do you feel your refactored solution is more readable than your initial solution? Why?  I added a counter to keep track of how far down I have to put the comma, but it makes it a little more confusing, as it is not clear why it is needed.
