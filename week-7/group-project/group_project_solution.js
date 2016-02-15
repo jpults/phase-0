@@ -138,15 +138,15 @@ function median(Array) {
 
 var median1 = median(oddLengthArray); var median2 = median(evenLengthArray);
 
-// Challenge Summary:
-We had a number of miscommunications over the course of the challenge which resulted in us failing almost all the tests.  To try and be clear as possible, it is my understanding that the challenge was to create 3 functions.  One would be called sum,
-and input an array of numbers, and output the sum of the array.  The second would be called mean and input an array of numbers, and output their average.  The third would be called median and input an array, and output the middle number in the array, if there are an even number of numbers,
-the function should return the average of the middle 2 numbers.
-As the writer of the user stories, I made several mistakes.  First, I gave the wrong example median in my description of that. I also think that I tried to give too specific a method to solving the problem, instead of saying simply what
-the functions should do and trusting the next person to figure out the steps. My stories, looking back, look too much like psuedocode without the organization that psuedocode brings. 
-The person that wrote the psuedo-code managed to understand me I think, but wrote confusingly that one should create
-new array and method in the first psuedocode, and instead of reffering to the third method as returning the Median, referenced the mean again. The third person I think did not follow the psuedocode very closely, as it might not have been clear that all that was needed were three functions. They also seemed to use
-parts of the challenge that I don't think that they were supposed to technically look at, which may have confused them further. Finally, the refactoring person did what they could, but in the third method I think did not see that unlike Ruby, Javascript does not default to integer division, resulting in 
-the indexes being looked up being decimal numbers in odd length arrays. 
-But I think you all did a great job with what you had to work with.  I don't think we should feel too bad about our mistakes, after all, the test code itself was not working entirely correctly either, I had to fix some things just to get them to
-run. I think what we should take out of this is that communication is hard, and we should strive to learn when to give more detail, as well as when to give less. 
+// // Challenge Summary:
+// We had a number of miscommunications over the course of the challenge which resulted in us failing almost all the tests.  To try and be clear as possible, it is my understanding that the challenge was to create 3 functions.  One would be called sum,
+// and input an array of numbers, and output the sum of the array.  The second would be called mean and input an array of numbers, and output their average.  The third would be called median and input an array, and output the middle number in the array, if there are an even number of numbers,
+// the function should return the average of the middle 2 numbers.
+// As the writer of the user stories, I made several mistakes.  First, I gave the wrong example median in my description of that. I also think that I tried to give too specific a method to solving the problem, instead of saying simply what
+// the functions should do and trusting the next person to figure out the steps. My stories, looking back, look too much like psuedocode without the organization that psuedocode brings. 
+// The person that wrote the psuedo-code managed to understand me I think, but wrote confusingly that one should create
+// new array and method in the first psuedocode, and instead of reffering to the third method as returning the Median, referenced the mean again. The third person I think did not follow the psuedocode very closely, as it might not have been clear that all that was needed were three functions. They also seemed to use
+// parts of the challenge that I don't think that they were supposed to technically look at, which may have confused them further. Finally, the refactoring person did what they could, but in the third method I think did not see that unlike Ruby, Javascript does not default to integer division, resulting in 
+// the indexes being looked up being decimal numbers in odd length arrays. 
+// But I think you all did a great job with what you had to work with.  I don't think we should feel too bad about our mistakes, after all, the test code itself was not working entirely correctly either, I had to fix some things just to get them to
+// run. I think what we should take out of this is that communication is hard, and we should strive to learn when to give more detail, as well as when to give less. 
