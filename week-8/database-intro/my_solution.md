@@ -10,7 +10,7 @@
 10. SELECT DISTINCT region_name, state_name FROM states INNER JOIN regions ON states.region_id=regions.id ORDER BY region_id;
 
 
-[<img src="/Schema.png">]
+![sitemap](/week-8/database-intro/Schema.png "Site-map")
 
 1. What are databases for? For storing large amounts of data and sorting through it.
 2. What is a one-to-many relationship? Where one category of data can fit into many other categories of a different data type.

@@ -1,9 +1,9 @@
-[<img src="*/imgs/One.png">]
+![sitemap](/week-8/imgs/One.png "Site-map")
 
 A fingerprint set is unique to each person but sometimes there is no file for fingerprints yet.
 
 
-[<img src="*/imgs/multiple.png">]
+![sitemap](/week-8/imgs/multiple.png "Site-map")
 
 
 What is a one-to-one database? 
