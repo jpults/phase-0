@@ -2,7 +2,7 @@
 // DOM Manipulation Challenge
 
 
-// I worked on this challenge [by myself, with: ].
+// I worked on this challenge [ with: john maguire ].
 
 
 // Add your JavaScript calls to this page:
